@@ -14,7 +14,7 @@ function currentLine(katzDeli) {
   else 
   var currentlyTheLineIs = `The line is currently: 1. ${katzDeli[0]}`
  
- for(let i = 1; i<katzDeli.length;i++){
+ for(let i = 1; i<katzDeli.length; i++){
  currentlyTheLineIs += `, ${i+1}. ${katzDeli[i]}`
  }
  return currentlyTheLineIs
